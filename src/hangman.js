@@ -27,7 +27,7 @@ export class Hangman {
     const isUnique = !this.quessedLetters.includes(char.toLowerCase());
     const isBadGuess = !this.word.includes(char);
     if (this.status !=='playing') {
-      return 
+      return;
     }
     if (isUnique) {
       this.quessedLetters.push(char);
