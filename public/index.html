@@ -2,19 +2,33 @@
 <html lang="en">
 
 <head>
-  <link href="styles/styles.css" rel="stylesheet">
-  <link href="images/zebra.png" rel="icon">
+  <script async
+    src="https://www.googletagmanager.com/gtag/js?id=G-CBLMGKRLZX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CBLMGKRLZX');
+  </script>
+  <link href="styles/styles.css"
+    rel="stylesheet">
+  <link href="images/zebra.png"
+    rel="icon">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
   <title>Hangman</title>
 </head>
 
 <body>
   <div>
-    <div id="hangman" class="puzzle"></div>
+    <div id="hangman"
+      class="puzzle"></div>
     <p id="guesses"></p>
     <p id="status"></p>
-    <button class="button" id="reset">Reset</button>
+    <button class="button"
+      id="reset">Reset</button>
   </div>
   <script src="/scripts/bundle.js"></script>
 
